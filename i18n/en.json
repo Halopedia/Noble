@@ -1,0 +1,8 @@
+{
+  "@metadata": {
+    "authors": [ "Daniel Beard" ]
+  },
+
+  "skinname-noble": "Noble",
+  "noble-desc": "Noble is a ground-up rewrite of the Nimbus skin, designed to provide interoperability with the Onyx and Trevelyan skins while maintaining feature parity with Nimbus."
+}

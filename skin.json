@@ -1,0 +1,45 @@
+{
+	"name": "Noble",
+	"author": "Daniel Beard",
+  "url": "https://www.halopedia.org/Halopedia:Skins/Noble",
+  "license-name": "GPL-2.0-or-later",
+  "type": "skin",
+
+  "namemsg": "skinname-noble",
+	"descriptionmsg": "noble-desc",
+	
+  "ValidSkinNames": {
+		"noble": "Noble"
+  },
+  
+	"AutoloadClasses": {
+    "SkinNoble": "includes/SkinNoble.php",
+    "NobleTemplate": "includes/NobleTemplate.php"
+  },
+  
+  "MessagesDirs": {
+    "Noble": "i18n"
+  },
+
+  "ResourceModules": {
+    "skins.noble.styles": {
+      "styles": {
+        "resources/noble-screen.css": { "media": "screen" },
+        "resources/noble-print.css": { "media": "print"}
+      }
+    },
+
+    "skins.noble.js": {
+      "scripts": [
+        "resources/noble.js"
+      ],
+      "dependencies": [],
+      "position": "top"
+    }
+  },
+
+  "ResourceFileModulePaths": {
+    "localBasePath": "",
+    "remoteSkinPath": "Noble"
+  }
+}

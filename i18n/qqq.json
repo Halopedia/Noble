@@ -1,0 +1,8 @@
+{
+  "@metadata": {
+    "authors": [ "Daniel Beard" ]
+  },
+
+  "skinname-noble": "{{name}}",
+  "noble-desc": "{{desc|what=skin|name=Noble|url=https://www.halopedia.org/Halopedia:Skins/Noble}}"
+}
